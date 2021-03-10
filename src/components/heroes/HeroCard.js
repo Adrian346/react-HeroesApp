@@ -7,7 +7,8 @@ export const HeroCard = ({ id, superhero, alter_ego, first_appearance, character
             <div className="row no-gutters">
                 <div className="col-md-4">
                     <img 
-                        src={`../../../assets/heroes/${ id }.jpg`}
+                        src={`https://github.com/Adrian346/react-HeroesApp/blob/main/docs/assets/heroes/${id}.jpg?raw=true`}
+                        // src={`../../../assets/heroes/${ id }.jpg`}
                         // src={`/assets/heroes/${ id }.jpg`} 
                         className="card-img-top" alt="..."/>
                 </div>
